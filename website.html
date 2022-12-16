@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery| MyOnlineMeall.com</title>
+    <style>
+        #navi {
+            align-items: center;
+            position: relative;
+            display: flex;
+            top: 0px;
+
+        }
+
+        #logo img {
+            height: 40px;
+            width: 80px;
+            margin: 3px 6px;
+        }
+
+
+
+        #navi ul {
+            display: flex;
+        }
+
+        #navi::before {
+            margin: 0;
+            content: "";
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+        #navi ul li {
+            top: 0;
+            position: relative;
+            list-style: none;
+            font-size: 2rem;
+        }
+
+        #navi ul li a {
+            color: aliceblue;
+            display: block;
+            padding: 3px 22px;
+            text-decoration: none;
+        }
+
+        #navi ul li a:hover {
+            background-color: black;
+            text-decoration: line-through;
+        }
+
+        /* homesection */
+        #home {
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            justify-content: center;
+            top: 0px;
+            left: 0px;
+            align-items: center;
+            height: 330px;
+            font-family: sans-serif;
+        }
+
+        #home::before {
+            content: "";
+            background: url(bg1.jpg) no-repeat center center/cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.95;
+
+        }
+
+        /* servicessection */
+        #services {
+
+            margin: 50ppx;
+            display: flex;
+        }
+
+        #services .box {
+height: 436px;
+            border: 2px solid red;
+            padding: 30px;
+            margin: 5px;
+            border-radius: 23px;
+            background-color: rgb(190, 218, 218);
+        }
+
+        #services .box img {
+            display: block;
+            height: 160px;
+            margin: auto;
+        }
+
+        .services-container {
+            background-image: url(bg2.jpg);
+            position: relative;
+           
+            background-size: 85%;
+
+        }
+
+        #services .box p {
+            font-size: 1.5rem;
+        }
+
+        /* client section */
+        #client-section {
+            height: 250px;
+        }
+
+        #client-section::before {
+            content: "";
+            position: absolute;
+            background-image: url(hh.png);
+            background-repeat: repeat;
+            background-size: 100%;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        #clients {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .client-item img {
+            height: 150px;
+            padding: 9px;
+        }
+
+        /* utility classes */
+        .h1 {
+            font-size: 2.8rem;
+            padding: 12px;
+        }
+
+        .hhh {
+            font-size: 2.8rem;
+            text-align: center;
+        }
+
+        .h2 {
+            font-size: 2.3rem;
+            padding: 12px;
+            text-align: center;
+        }
+
+        #home h1 {
+            color: black;
+            text-align: center;
+        }
+
+        #home p {
+            color: black;
+            text-align: center;
+            padding: 0%;
+            font-size: 18px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: transparent;
+            font-size: 1.5rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', ;
+            margin: 17px;
+            border-radius: 10px;
+
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            text-decoration: underline red;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navi">
+        <div id="logo">
+            <img src="fries-576611_1280.png" alt="MyOnlineMeal.com" srcset="">
+        </div>
+
+        <ul>
+            <li class="items"><a href="home">Home</a></li>
+            <li class="items"><a href="services">Services</a></li>
+            <li class="items"><a href="about us">About us </a></li>
+            <li class="items"><a href="contact us">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h1">Welcome to Myonlinemeal</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia debitis ipsa quisquam quas neque accusamus?
+        </p>
+        <p>Lorem . Quia debitis ipsa quisquam quas neque accusamus?
+        </p>
+        <button class="btn">Order now</button>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="services-container">
+        <h1 class="hhh">Our services</h1>
+        <div id="services">
+
+            <div class="box"><img src="burger-2013191.png" alt="">
+                <h2 class="h2 center">
+                    Food Catering
+                </h2>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia accusamus tempora
+                    rem molestiae
+                    esse ab
+                    voluptatum possimus minus inventore, quo amet ipsa, deleniti vel facere labore culpa ipsam
+                    voluptatem
+                    eum quae! Vel, corrupti dicta!</p>
+            </div>
+            <div class="box"><img src="burger-2013191.png" alt="">
+                <h2 class="h2 center">
+                    Bulk Ordering
+                </h2>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia accusamus tempora
+                    rem molestiae
+                    esse ab
+                    voluptatum possimus minus inventore, quo amet ipsa, deleniti vel facere labore culpa ipsam
+                    voluptatem
+                    eum quae! Vel, corrupti dicta!</p>
+            </div>
+            <div class="box"><img src="burger-2013191.png" alt="">
+                <h2 class="h2 center">
+                    Food Ordering
+                </h2>
+                <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia accusamus tempora
+                    rem molestiae
+                    esse ab
+                    voluptatum possimus minus inventore, quo amet ipsa, deleniti vel facere labore culpa ipsam
+                    voluptatem
+                    eum quae! Vel, corrupti dicta!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="hhh">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="logo-27046.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="apple-3372581.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="burger-2013191.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="logo-27046.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
